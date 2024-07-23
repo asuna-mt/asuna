@@ -1,0 +1,168 @@
+[submodule "abdecor"]
+	path = mods/abdecor
+	url = https://github.com/asuna-mt/abdecor
+	branch = asuna
+[submodule "animalia"]
+	path = mods/animalia
+	url = https://github.com/asuna-mt/animalia
+	branch = asuna
+[submodule "asuna_game_mods"]
+	path = mods/asuna
+	url = https://github.com/asuna-mt/asuna_game_mods
+	branch = asuna
+[submodule "awards"]
+	path = mods/awards
+	url = https://github.com/asuna-mt/awards
+	branch = asuna
+[submodule "bakedclay"]
+	path = mods/bakedclay
+	url = https://github.com/asuna-mt/bakedclay
+	branch = asuna
+[submodule "beautiflowers"]
+	path = mods/beautiflowers
+	url = https://github.com/asuna-mt/beautiflowers
+	branch = asuna
+[submodule "biomes"]
+	path = mods/biomes
+	url = https://github.com/asuna-mt/biomes
+	branch = asuna
+[submodule "bonemeal"]
+	path = mods/bonemeal
+	url = https://github.com/asuna-mt/bonemeal
+	branch = asuna
+[submodule "bottles"]
+	path = mods/bottles
+	url = https://github.com/asuna-mt/bottles
+	branch = asuna
+[submodule "builtin_item"]
+	path = mods/builtin_item
+	url = https://github.com/asuna-mt/builtin_item
+	branch = asuna
+[submodule "caverealms"]
+	path = mods/caverealms
+	url = https://github.com/asuna-mt/caverealms_lite
+	branch = asuna
+[submodule "colorful_beds"]
+	path = mods/colorful_beds
+	url = https://github.com/asuna-mt/colorful_beds
+	branch = asuna
+[submodule "creatura"]
+	path = mods/creatura
+	url = https://github.com/asuna-mt/creatura
+	branch = asuna
+[submodule "ethereal"]
+	path = mods/ethereal
+	url = https://github.com/asuna-mt/ethereal
+	branch = asuna
+[submodule "everness"]
+	path = mods/everness
+	url = https://github.com/asuna-mt/everness
+	branch = asuna
+[submodule "farming"]
+	path = mods/farming
+	url = https://github.com/asuna-mt/farming
+	branch = asuna
+[submodule "flowerpot"]
+	path = mods/flowerpot
+	url = https://github.com/asuna-mt/flowerpot
+	branch = asuna
+[submodule "geodes"]
+	path = mods/geodes
+	url = https://github.com/asuna-mt/geodes
+	branch = asuna
+[submodule "herbs"]
+	path = mods/herbs
+	url = https://github.com/asuna-mt/herbs
+	branch = asuna
+[submodule "item_drop"]
+	path = mods/item_drop
+	url = https://github.com/asuna-mt/item_drop
+	branch = asuna
+[submodule "leafstride"]
+	path = mods/leafstride
+	url = https://github.com/asuna-mt/leafstride
+	branch = asuna
+[submodule "livingjungle"]
+	path = mods/livingjungle
+	url = https://github.com/asuna-mt/livingjungle
+	branch = asuna
+[submodule "livingslimes"]
+	path = mods/livingslimes
+	url = https://github.com/asuna-mt/livingslimes
+	branch = asuna
+[submodule "lootchests_modpack"]
+	path = mods/lootchests_modpack
+	url = https://github.com/asuna-mt/lootchests_modpack
+	branch = asuna
+[submodule "marinara"]
+	path = mods/marinara
+	url = https://github.com/asuna-mt/marinara
+	branch = asuna
+[submodule "minetest_game"]
+	path = mods/minetest_game
+	url = https://github.com/asuna-mt/minetest_game
+	branch = asuna
+[submodule "sfinv_buttons"]
+	path = mods/sfinv_buttons
+	url = https://github.com/asuna-mt/minetest_sfinv_buttons
+	branch = asuna
+[submodule "show_wielded_item"]
+	path = mods/show_wielded_item
+	url = https://github.com/asuna-mt/minetest_show_wielded_item
+	branch = asuna
+[submodule "soup"]
+	path = mods/soup
+	url = https://github.com/asuna-mt/minetest-soup
+	branch = asuna
+[submodule "tt"]
+	path = mods/tt
+	url = https://github.com/asuna-mt/minetest_tt
+	branch = asuna
+[submodule "tt_base"]
+	path = mods/tt_base
+	url = https://github.com/asuna-mt/minetest_tt_base
+	branch = asuna
+[submodule "music_modpack"]
+	path = mods/music_modpack
+	url = https://github.com/asuna-mt/music_modpack
+	branch = asuna
+[submodule "naturalbiomes"]
+	path = mods/naturalbiomes
+	url = https://github.com/asuna-mt/naturalbiomes
+	branch = asuna
+[submodule "plantlife_modpack"]
+	path = mods/plantlife_modpack
+	url = https://github.com/asuna-mt/plantlife_modpack
+	branch = asuna
+[submodule "player_monoids"]
+	path = mods/player_monoids
+	url = https://github.com/asuna-mt/player_monoids
+	branch = asuna
+[submodule "signs_lib"]
+	path = mods/signs_lib
+	url = https://github.com/asuna-mt/signs_lib
+	branch = asuna
+[submodule "skinsdb"]
+	path = mods/skinsdb
+	url = https://github.com/asuna-mt/skinsdb
+	branch = asuna
+[submodule "stamina"]
+	path = mods/stamina
+	url = https://github.com/asuna-mt/stamina
+	branch = asuna
+[submodule "telemosaic"]
+	path = mods/telemosaic
+	url = https://github.com/asuna-mt/telemosaic
+	branch = asuna
+[submodule "too_many_stones"]
+	path = mods/too_many_stones
+	url = https://github.com/asuna-mt/too_many_stones
+	branch = asuna
+[submodule "wielded_light"]
+	path = mods/wielded_light
+	url = https://github.com/asuna-mt/wielded_light
+	branch = asuna
+[submodule "worldgate"]
+	path = mods/worldgate
+	url = https://github.com/asuna-mt/worldgate
+	branch = asuna
