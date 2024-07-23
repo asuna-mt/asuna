@@ -1,0 +1,21 @@
+# Since Asuna is not free from warnigs yet, this workflow only checks modified
+# files, so we can show a passing check if a PR does not introduce new errors
+# (provided the modified file was already clean)
+name: Luacheck (pull request)
+on: pull_request
+jobs:
+  luacheck-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+            fetch-depth: 2
+      - name: Changes
+        id: changes
+        run: echo "changes=$(git diff --name-only HEAD^ | grep '.lua$' | ( mapfile -t; echo "${MAPFILE[@]}" ))" >> "$GITHUB_OUTPUT"
+      - name: Luacheck linter
+        uses: lunarmodules/luacheck@v1
+        if: steps.changes.outputs.changes != ''
+        with:
+            args: ${{ steps.changes.outputs.changes }}

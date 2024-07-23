@@ -1,0 +1,12 @@
+*.xcf export-ignore
+*.blend export-ignore
+*.py export-ignore
+*.sh export-ignore
+mods/**/screenshot.png export-ignore
+biome_graph.ggb export-ignore
+.github/** export-ignore
+mods/minetest_game/menu/** export-ignore
+mods/minetest_game/utils/** export-ignore
+mods/minetest_game/*.conf export-ignore
+mods/minetest_game/*.example export-ignore
+mods/signs_lib/util/**
