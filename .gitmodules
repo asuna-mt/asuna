@@ -166,3 +166,7 @@
 	path = mods/worldgate
 	url = https://github.com/asuna-mt/worldgate
 	branch = asuna
+[submodule "x_farming"]
+	path = mods/x_farming
+	url = https://github.com/asuna-mt/x_farming
+	branch = asuna
