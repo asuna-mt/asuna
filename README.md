@@ -3,9 +3,9 @@ Asuna
 
 Welcome to the vast and vibrant world of Asuna! Journey through a potpourri of natural wonders as you traverse beautiful and breathtaking landscapes. Forests, meadows, jungles, tundras, deserts, swamps, and more await you at every horizon.
 
-This passion project brings together some of the very best biome and world decoration mods that the Minetest community has published to date. Much of Asuna's beauty is owed to the mod authors who have openly shared the fruits of their hard work and imagination. Asuna stands to honor these authors and their work while adding even more wonder to their collective experience.
+This passion project brings together some of the very best biome and world decoration mods that the Minetest community has published to date. Much of Asuna's beauty is owed to the mod authors who have openly shared the fruits of their hard work and imagination. Asuna stands to honor these authors and their works.
 
-**NOTE: This game is currently a work in progress!** [Bug reports and feature requests are welcome](https://github.com/EmptyStar/asuna/issues).
+**NOTE: This game is currently a work in progress!** [Bug reports and feature requests are welcome](https://github.com/asuna-mt/asuna/issues).
 
 Features
 --------
@@ -15,9 +15,10 @@ Asuna provides a wealth of biomes, flora, fauna, and a few other extras. Primary
 - 60+ biomes to explore ([Everness](https://content.minetest.net/packages/SaKeL/everness/), [Biomes](https://content.minetest.net/packages/Atlante/biomes/), [Ethereal](https://content.minetest.net/packages/TenPlus1/ethereal/), [Wilhelmines Natural Biomes](https://content.minetest.net/packages/Liil/naturalbiomes/), [Wilhelmines Living Jungle](https://content.minetest.net/packages/Liil/livingjungle/), [Wilhelmines Marinara](https://content.minetest.net/packages/Liil/marinara/), [Caverealms Lite](https://content.minetest.net/packages/Shara/caverealms/))
 - 100+ flowers, plants, and mushrooms to discover ([Beautiful Flowers](https://content.minetest.net/packages/1faco/beautiflowers/), [Herbs](https://content.minetest.net/packages/Clyde/herbs/), [Plantlife](https://content.minetest.net/packages/mt-mods/plantlife_modpack/), [Baked Clay](https://content.minetest.net/packages/TenPlus1/bakedclay/), [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game/), and more from the biome mods)
 - 30+ farming crops to grow and harvest ([X Farming](https://content.minetest.net/packages/SaKeL/x_farming/), [Farming Redo](https://content.minetest.net/packages/TenPlus1/farming/))
-- 16 different animals to be found in their natural habitats ([Animalia](https://content.minetest.net/packages/ElCeejo/animalia/))
+- 18 different animals to be found in their natural habitats ([Animalia](https://content.minetest.net/packages/ElCeejo/animalia/))
 - 80+ decorative stones to unearth ([Too Many Stones](https://content.minetest.net/packages/JoeEnderman/too_many_stones/), [Baked Clay](https://content.minetest.net/packages/TenPlus1/bakedclay/), plus more from biome mods)
-- 25 atmospheric background music tracks (curated specifically for Asuna in [asuna_music](https://github.com/EmptyStar/asuna/tree/main/mods/asuna/asuna_music) and played via [Music Modpack](https://content.minetest.net/packages/mt-mods/music_modpack/))
+- 45 unique achievements to unlock ([Awards](https://content.minetest.net/packages/rubenwardy/awards/), [Asuna Awards](https://github.com/asuna-mt/asuna_game_mods/tree/asuna/asuna_awards))
+- 25 atmospheric background music tracks (curated specifically for Asuna in [asuna_core](https://github.com/asuna-mt/asuna_game_mods/tree/asuna/asuna_core) and played via [Music Modpack](https://content.minetest.net/packages/mt-mods/music_modpack/))
 
 Gameplay
 --------
@@ -55,3 +56,7 @@ These chests are implemented by a modified version of [LootChests modpack](https
 ### Animals
 
 Asuna is home to a number of wild animals which can be found roaming about their natural habitats. These animals are highly interactive and can be fed, bred, tamed, and hunted. These animals are implemented via the [Animalia](https://content.minetest.net/packages/ElCeejo/animalia/) mod which describes the animals in greater detail.
+
+### Slimes
+
+Many species of living slimes are native to Asuna. Some of these slimes are docile foragers while others are more territorial. These slimes can be found in many places under the sun, deep underground, and even in oceans and waterways. See the [Living Slimes](https://content.minetest.net/packages/EmptyStar/livingslimes/) mod for information about the various slimes and their behaviors.
