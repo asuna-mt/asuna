@@ -5,8 +5,13 @@
 mods/**/screenshot.png export-ignore
 biome_graph.ggb export-ignore
 .github/** export-ignore
+mods/**/.github/** export-ignore
+.github export-ignore
 mods/minetest_game/menu/** export-ignore
+mods/minetest_game/menu export-ignore
 mods/minetest_game/utils/** export-ignore
+mods/minetest_game/utils export-ignore
 mods/minetest_game/*.conf export-ignore
 mods/minetest_game/*.example export-ignore
 mods/signs_lib/util/**
+mods/signs_lib/util
