@@ -45,18 +45,28 @@ stds.minetest = {
 -- Mods that are potentially supported but not included in Asuna.
 -- The relevant code must be gated by `if minetest.get_modpath("...")` or similar.
 -- Could be extracted from optional_depends, but in practice not all mods declare it.
+-- Could also be extracted from ifs like the one above.
+-- In practice only a few of these are not covered by other rules, and often mod
+-- names differ from global names they define, so this list was filled manually.
 stds.supported_mods = {
   read_globals = {
+    "abstract_dryplants", -- from dryplants
     "armor", -- From 3d_armor
-    "awards",
-    "bonemeal",
+    "df_primordial_items",
+    "df_trees",
     "geodes_lib",
+    "hb", -- From hudbars
     "hunger_ng",
-    "intllib",
     "lucky_block",
+    "mapgen_helper", -- From dfcaverns
     "mcl_player",
+    "mcl_sounds",
+    "mobs",
+    "moretrees",
+    "signs_bot",
     "stairsplus",
     "techage",
+    "technic",
     "technic_cnc",
     "toolranks",
   },
@@ -64,25 +74,27 @@ stds.supported_mods = {
 
 -- Mods included in Asuna.
 -- List generated with:
---   git grep -ho "^name =.*" | awk '{ sub("\r",""); print "  \"" $3 "\"," }' | sort
+--   git grep --recurse-submodules -ho "^name =.*" | awk '{ sub("\r",""); print "  \"" $3 "\"," }' | sort
 local mod_names = {
   "abdecor",
   "animalia",
+  "asuna_awards",
   "asuna_core",
   "asuna_textures",
+  "awards",
   "badland",
   "bakedclay",
-  "bambooforest",
   "beautiflowers",
   "beds",
-  "better_farming",
   "binoculars",
   "biomes",
+  "biomes_leafdecay",
   "boats",
+  "bonemeal",
   "bones",
   "bottles",
   "bucket",
-  "bushes",
+  "builtin_item",
   "butterflies",
   "carts",
   "caverealms",
@@ -96,6 +108,8 @@ local mod_names = {
   "dye",
   "env_sounds",
   "ethereal",
+  "everness",
+  "farming",
   "farming",
   "ferns",
   "fire",
@@ -107,10 +121,12 @@ local mod_names = {
   "geodes",
   "give_initial_stuff",
   "herbs",
+  "item_drop",
   "japaneseforest",
   "keys",
   "leafstride",
   "livingjungle",
+  "livingslimes",
   "lootchests",
   "lootchests_default",
   "map",
@@ -119,31 +135,34 @@ local mod_names = {
   "music_api",
   "naturalbiomes",
   "nightshade",
-  "plantlife_modpack",
   "player_api",
   "player_monoids",
   "pl_seaweed",
-  "pl_sunflowers",
   "prairie",
   "screwdriver",
   "sethome",
   "sfinv",
   "sfinv_buttons",
   "show_wielded_item",
+  "signs_lib",
+  "skinsdb",
   "soup",
   "spawn",
   "stairs",
   "stamina",
-  "terracotta",
+  "telemosaic",
   "tnt",
   "too_many_stones",
+  "tt",
+  "tt_base",
   "vessels",
   "walls",
   "weather",
   "wielded_light",
   "wool",
+  "worldgate",
+  "x_farming",
   "xpanes",
-  "youngtrees",
 }
 
 -- Globals defined by Asuna.
@@ -155,23 +174,50 @@ globals = {
   "abstract_ferns", -- from ferns
   "abstract_youngtrees", -- from youngtrees
   "music", -- from music_api
+  "skins", -- from skinsdb
   table.unpack(mod_names)
+}
+
+exclude_files = {
+  -- Assets
+  "mods/livingjungle/schematics",
+  -- Legacy stuff
+  "mods/animalia/api/legacy_convert.lua",
+  "mods/minetest_game/default/legacy.lua",
 }
 
 -- Mod-specific configuration
 -----------------------------
 
 -- Import existing .luacheckrc files
+-- List generated with:
+--   find mods -name .luacheckrc -exec dirname {} \; | xargs -L1 basename | awk '{ sub("\r",""); print "  \"" $1 "\"," }' | sort
 local mods_with_luacheckrc = {
+  "animalia",
+  "awards",
   "creatura",
+  "everness",
   "flowerpot",
+  "item_drop",
+  "plantlife_modpack",
   "player_monoids",
+  "signs_lib",
+  "skinsdb",
   "stamina",
+  "telemosaic",
+  "x_farming",
 }
 for _,modname in ipairs(mods_with_luacheckrc) do
-  files["mods/"..modname] = {}
+  local modpath = "mods/" .. modname
+  files[modpath] = {}
   -- store globals defined in the mod's .luacheckrc in the corresponding files table
-  assert(pcall(assert(loadfile("mods/"..modname.."/.luacheckrc", nil, files["mods/"..modname]))))
+  assert(pcall(assert(loadfile(modpath.."/.luacheckrc", nil, files[modpath]))))
+  if files[modpath].exclude_files then
+    for i,path in ipairs(files[modpath].exclude_files) do
+      -- exclude_files only works in the global scope, not in files[]
+      table.insert(exclude_files, modpath.."/"..path)
+    end
+  end
 end
 
 -- Used variable "_foo" with unused hint.
@@ -184,9 +230,3 @@ files["mods/asuna/asuna_core"] = { globals = { minetest = { fields = { "register
 files["mods/minetest_game/creative"] = { globals = { minetest = { fields = { "creative" } } } }
 files["mods/minetest_game/player_api"] = { globals = { minetest = { fields = { "calculate_knockback" } } } }
 files["mods/ethereal/crystal.lua"] = { globals = { minetest = { fields = { "handle_node_drops" } } } }
-
-exclude_files = {
-  -- Legacy stuff
-  "mods/animalia/api/legacy_convert.lua",
-  "mods/minetest_game/default/legacy.lua",
-}
