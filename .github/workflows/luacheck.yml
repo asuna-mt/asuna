@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+            submodules: recursive
       - name: Luacheck linter
         uses: lunarmodules/luacheck@v1
