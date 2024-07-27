@@ -30,6 +30,10 @@ asuna.mobs.animals (Animals) bool true
 #    Enable slimes
 asuna.mobs.slimes (Slimes) bool true
 
+#    Enable Worldgate, a randomly generated teleportation network that spawns
+#    teleportation beacons throughout your world
+asuna.worldgate (Worldgates) bool true
+
 #    In creative mode players are able to dig all kind of blocks nearly
 #    instantly, and have access to unlimited resources.
 #    Some of the functionality is only available if this setting is present
