@@ -14,7 +14,7 @@ jobs:
             submodules: recursive
       - name: Changes
         id: changes
-        run: echo "changes=$(git diff --name-only HEAD^ | grep '.lua$' | ( mapfile -t; echo "${MAPFILE[@]}" ))" >> "$GITHUB_OUTPUT"
+        run: echo "changes=$(git diff --submodule=diff --name-only HEAD^ | grep '.lua$' | ( mapfile -t; echo "${MAPFILE[@]}" ))" >> "$GITHUB_OUTPUT"
       - name: Luacheck linter
         uses: lunarmodules/luacheck@v1
         if: steps.changes.outputs.changes != ''
