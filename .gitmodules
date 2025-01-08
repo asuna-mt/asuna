@@ -170,3 +170,7 @@
 	path = mods/x_farming
 	url = https://github.com/asuna-mt/x_farming
 	branch = asuna
+[submodule "3d_armor"]
+	path = mods/3d_armor
+	url = https://github.com/asuna-mt/3d_armor
+	branch = asuna
