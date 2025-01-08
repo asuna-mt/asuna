@@ -178,3 +178,7 @@
 	path = mods/researcher
 	url = https://github.com/asuna-mt/researcher
 	branch = asuna
+[submodule "findbiome"]
+	path = mods/findbiome
+	url = https://github.com/asuna-mt/minetest_findbiome
+	branch = asuna
