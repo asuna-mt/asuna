@@ -12,11 +12,15 @@ asuna.content.nutrition.enabled (Enable Nutrition?) bool true
 #    food nutrition is reduced by one point. Higher values cause players to
 #    remain satiated for longer while lower values cause players to become
 #    hungry more quickly.
+#
+#    Requires: asuna.content.nutrition.enabled
 asuna.content.nutrition.exhaustion_level (Exhaustion Level) float 160
 
 #    Enabling this setting will cause players to lose health over time when
 #    their food meter is empty. Disabling this setting will prevent players
 #    from suffering health loss due to hunger.
+#
+#    Requires: asuna.content.nutrition.enabled
 asuna.content.nutrition.starvation (Starvation) bool false
 
 [Content Pack: Wayfarer]
@@ -28,10 +32,14 @@ asuna.content.wayfarer.enabled (Enable Wayfarer?) bool true
 #    Enable loot chests which causes chests and other loot containers to
 #    generate randomly throughout the world. These chests contain many useful
 #    items and materials.
+#
+#    Requires: asuna.content.wayfarer.enabled
 asuna.content.wayfarer.loot_chests (Loot Chests) bool true
 
 #    Enable Worldgate, a randomly generated teleportation network that spawns
 #    linked teleportation beacons throughout your world.
+#
+#    Requires: asuna.content.wayfarer.enabled
 asuna.content.wayfarer.worldgate (Worldgates) bool true
 
 [Content Pack: Menagerie]
@@ -42,10 +50,14 @@ asuna.content.menagerie.enabled (Enable Menagerie?) bool true
 #    Spawns animals such as birds, sheep, cows, and other familiar animals in
 #    the wild. Animals can be tamed, and many animals will drop useful resources
 #    such as meat and bones.
+#
+#    Requires: asuna.content.menagerie.enabled
 asuna.content.menagerie.animals (Animals) bool true
 
 #    Spawns living slimes throughout the world. Some slimes are docile while
 #    others are aggressive. Their slime can be used to create slime blocks.
+#
+#    Requires: asuna.content.menagerie.enabled
 asuna.content.menagerie.slimes (Slimes) bool true
 
 [Content Pack: Epiphany]
