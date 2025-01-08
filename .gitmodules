@@ -174,3 +174,7 @@
 	path = mods/3d_armor
 	url = https://github.com/asuna-mt/3d_armor
 	branch = asuna
+[submodule "researcher"]
+	path = mods/researcher
+	url = https://github.com/asuna-mt/researcher
+	branch = asuna
