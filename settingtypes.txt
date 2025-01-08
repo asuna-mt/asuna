@@ -1,38 +1,60 @@
-# This file contains settings of Asuna that can be changed in
-# minetest.conf. Most of the settings are the same as those that are included
-# with to Minetest Game.
+# This file contains settings for Asuna
 
-#    Enable nutrition which gives players movement speed, sprinting, healing
-#    over time, and poison resistance when they have eaten enough food. The
-#    effects of not eating food cannot harm players and cannot cause starvation
-#    unless specifically enabled by the "food starvation" setting.
-asuna.nutrition (Nutrition) bool true
+[Content Pack: Nutrition]
+
+#    Grants players movement speed, sprinting, healing over time, and poison
+#    resistance when they have eaten enough food. The effects of not eating food
+#    cannot harm players and cannot cause starvation unless specifically enabled
+#    by the starvation setting.
+asuna.content.nutrition.enabled (Enable Nutrition?) bool true
 
 #    The amount of exhaustion points that a player must accumulate before their
 #    food nutrition is reduced by one point. Higher values cause players to
 #    remain satiated for longer while lower values cause players to become
 #    hungry more quickly.
-asuna.nutrition_exhaustion_level (Nutrition: exhaustion level) float 160
+asuna.content.nutrition.exhaustion_level (Exhaustion Level) float 160
 
 #    Enabling this setting will cause players to lose health over time when
 #    their food meter is empty. Disabling this setting will prevent players
 #    from suffering health loss due to hunger.
-asuna.nutrition_starvation (Nutrition: starvation) bool false
+asuna.content.nutrition.starvation (Starvation) bool false
+
+[Content Pack: Wayfarer]
+
+#    Provides a rich variety of special resources in your world such as loot
+#    chests and teleportation gates.
+asuna.content.wayfarer.enabled (Enable Wayfarer?) bool true
 
 #    Enable loot chests which causes chests and other loot containers to
 #    generate randomly throughout the world. These chests contain many useful
-#    items and materials that reward players as they explore.
-asuna.loot_chests (Loot Chests) bool true
-
-#    Enable animals
-asuna.mobs.animals (Animals) bool true
-
-#    Enable slimes
-asuna.mobs.slimes (Slimes) bool true
+#    items and materials.
+asuna.content.wayfarer.loot_chests (Loot Chests) bool true
 
 #    Enable Worldgate, a randomly generated teleportation network that spawns
-#    teleportation beacons throughout your world
-asuna.worldgate (Worldgates) bool true
+#    linked teleportation beacons throughout your world.
+asuna.content.wayfarer.worldgate (Worldgates) bool true
+
+[Content Pack: Menagerie]
+
+#    Provides a variety of mobs and monsters in your world.
+asuna.content.menagerie.enabled (Enable Menagerie?) bool true
+
+#    Spawns animals such as birds, sheep, cows, and other familiar animals in
+#    the wild. Animals can be tamed, and many animals will drop useful resources
+#    such as meat and bones.
+asuna.content.menagerie.animals (Animals) bool true
+
+#    Spawns living slimes throughout the world. Some slimes are docile while
+#    others are aggressive. Their slime can be used to create slime blocks.
+asuna.content.menagerie.slimes (Slimes) bool true
+
+[Content Pack: Epiphany]
+
+#    Enables an earned creative mode for your world whereby items can be
+#    permanently destroyed in order to earn infinite duplication of those items.
+asuna.content.epiphany.enabled (Enable Epiphany?) bool true
+
+[Minetest Game]
 
 #    In creative mode players are able to dig all kind of blocks nearly
 #    instantly, and have access to unlimited resources.
