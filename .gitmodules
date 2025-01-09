@@ -182,3 +182,7 @@
 	path = mods/findbiome
 	url = https://github.com/asuna-mt/minetest_findbiome
 	branch = asuna
+[submodule "effervescence"]
+	path = mods/effervescence
+	url = https://github.com/asuna-mt/effervescence
+	branch = asuna
