@@ -29,6 +29,13 @@ asuna.content.nutrition.starvation (Starvation) bool false
 #    chests and teleportation gates.
 asuna.content.wayfarer.enabled (Enable Wayfarer?) bool true
 
+#    Provides an array of awards that can be unlocked by fulfilling certain
+#    conditions. Awards exist for various types of crafting, collecting, and
+#    exploring.
+#
+#    Requires: asuna.content.wayfarer.enabled
+asuna.content.wayfarer.awards (Awards) bool true
+
 #    Enable loot chests which causes chests and other loot containers to
 #    generate randomly throughout the world. These chests contain many useful
 #    items and materials.
@@ -60,13 +67,18 @@ asuna.content.menagerie.animals (Animals) bool true
 #    Requires: asuna.content.menagerie.enabled
 asuna.content.menagerie.slimes (Slimes) bool true
 
-[Content Pack: Epiphany]
+[Content Pack: Research]
 
 #    Enables an earned creative mode for your world whereby items can be
 #    permanently destroyed in order to earn infinite duplication of those items.
-asuna.content.epiphany.enabled (Enable Epiphany?) bool true
+asuna.content.research.enabled (Enable Research?) bool true
 
-[Minetest Game]
+[General Settings]
+
+#    The amount of decorative particles to show. These particles are only a
+#    visual feature; this setting not affect gameplay. More particles may cause
+#    performance issues.
+asuna.settings.particles.amount (Particles amount) enum less maximum,more,less,none
 
 #    In creative mode players are able to dig all kind of blocks nearly
 #    instantly, and have access to unlimited resources.
