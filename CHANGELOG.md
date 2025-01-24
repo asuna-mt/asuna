@@ -1,0 +1,18 @@
+# Asuna Changelog
+
+This file documents the major changes made in each version of Asuna.
+
+## v1.0.0
+
+- Asuna is no longer a work-in-progress! Asuna will continue to see updates; this simply means that Asuna is no longer considered to be in a new/experimental state
+- New built-in mods: Researcher, 3D Armor, Find Biome, Effervescence; if you have any of these mods enabled for your existing Asuna worlds, it is recommended to disable them in favor of Asuna's built-in mods
+- Gameplay updates are now structured as *content packs* which are configurable via settings -- **CHECK YOUR GAME SETTINGS** to reconfigure any previous changes that you might have made
+- Revamped Jumble biome: now features more distinct trees and biome features + fixed missing cave definition to give it proper fungal/mushroom caves
+- Set height limit to max for biomes that were unnecessarily limited to lower elevations (Grassland, Plains, Prairie, Birch Forest, Sakura, Jumble, Mushroom, Grove)
+- Eight new ambient music tracks by [Sascha Ende](https://filmmusic.io/) (and removed two less fitting nighttime tracks)
+- Updated textures based on newer versions of [Baunilha](https://content.luanti.org/packages/Mirtilo/baunilha/) plus some custom textures for crosshairs, giant mushrooms, and select other nodes/items
+- New awards
+- Upstream updates to all bundled mods that had available updates
+- Globally-aligned textures for Minetest Game stairs and slabs
+- New overall goal tracker for Awards UI and more consistent award listing
+- Lots of bug fixes: possible crash and behavior issues with slimes, beds previously not passing the night, mapgen quirks, missing groups for certain flowers, and so much more!
