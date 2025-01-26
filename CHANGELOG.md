@@ -2,6 +2,13 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.1
+
+- Added a mod override warning that warns players if they have mods enabled that are already bundled with Asuna
+- Removed directional placement of Ethereal planks
+- Removed marram grass from sandstone desert shores
+- Updated Minetest Game from upstream
+
 ## v1.0.0
 
 - Asuna is no longer a work-in-progress! Asuna will continue to see updates; this simply means that Asuna is no longer considered to be in a new/experimental state
