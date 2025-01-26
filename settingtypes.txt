@@ -80,6 +80,12 @@ asuna.content.research.enabled (Enable Research?) bool true
 #    performance issues.
 asuna.settings.particles.amount (Particles amount) enum less maximum,more,less,none
 
+#    Installed mods that Asuna already bundles will override Asuna's version of
+#    those mods, and because this can cause issues, Asuna will generate warnings
+#    when this happens. These warnings can be disabled if you're absolutely sure
+#    that you want to override Asuna's mods.
+asuna.settings.mod_override_warnings.enabled (Enable mod override warnings) bool true
+
 #    In creative mode players are able to dig all kind of blocks nearly
 #    instantly, and have access to unlimited resources.
 #    Some of the functionality is only available if this setting is present
