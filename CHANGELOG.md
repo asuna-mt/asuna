@@ -2,6 +2,17 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.2
+
+- Removed hemp -> cotton recipe
+- X Farming water bottle aliased to Filled Bottles water bottle
+- X Farming soup bowl aliased to Farming Redo wooden bowl
+- Everness basic farming soils aliased to Farming Redo soils
+- Added depth_riverbed to registered biomes which ensures proper riverbeds
+- Grass/litter nodes based on nodes other than dirt now decay into the proper node
+- Expanded Heath biome to the shoreline
+- Generate schematics before ground cover in Natural Biomes mapgen
+
 ## v1.0.1
 
 - Added a mod override warning that warns players if they have mods enabled that are already bundled with Asuna
