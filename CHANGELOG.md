@@ -2,6 +2,11 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.3
+
+- Use alternate texture for wool instead of overriding X Farming wool alias tiles
+- Add [Carpets](https://content.luanti.org/packages/bell07/carpets/) mod
+
 ## v1.0.2
 
 - Removed hemp -> cotton recipe
