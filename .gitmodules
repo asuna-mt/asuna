@@ -186,3 +186,7 @@
 	path = mods/effervescence
 	url = https://github.com/asuna-mt/effervescence
 	branch = asuna
+[submodule "carpets"]
+	path = mods/carpets
+	url = https://github.com/asuna-mt/carpets
+	branch = asuna
