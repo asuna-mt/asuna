@@ -2,6 +2,14 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.4
+
+- Add missing Dorwinion and Nightshade tree saplings
+- Make saplings from Biomes modpack more compatible with bonemeal
+- Adjust Show Wielded Item text to be bold and to not overlap with the food saturation bar
+- Enable raspberries from Farming Redo and add raspberries to mapgen
+- Adjust low-yield wild crops to be more mature and thus more likely to drop crops/seeds
+
 ## v1.0.3
 
 - Use alternate texture for wool instead of overriding X Farming wool alias tiles
