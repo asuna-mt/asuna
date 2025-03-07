@@ -2,6 +2,13 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.5
+
+- Fix a crash caused by the Net Worth award
+- Researcher: Fix broken research table particle graphics
+- Effervescence: Set `blend = "clip"` for most particle effects
+- Add `time_speed = 72` to Asuna's minetest.conf file for proper day/night cycles in case the default value changes
+
 ## v1.0.4
 
 - Add missing Dorwinion and Nightshade tree saplings
