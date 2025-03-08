@@ -4,7 +4,7 @@ This file documents the major changes made in each version of Asuna.
 
 ## v1.0.6
 
-- Disable armor fire protection and torch damage
+- Disable torch damage
 - Remove log message that appears when using a bug net
 
 ## v1.0.5
