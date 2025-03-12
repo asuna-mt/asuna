@@ -2,6 +2,10 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.0.7
+
+- Effervescence: Use `blend = "clip"` for particles only if it's supported
+
 ## v1.0.6
 
 - Disable torch damage
