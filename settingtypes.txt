@@ -86,6 +86,12 @@ asuna.settings.particles.amount (Particles amount) enum less maximum,more,less,n
 #    that you want to override Asuna's mods.
 asuna.settings.mod_override_warnings.enabled (Enable mod override warnings) bool true
 
+#    Asuna only officially supports the mgv7 mapgen. Other mapgens can be used
+#    at your own risk; doing so may cause crashes and unpredictable game
+#    behavior. This warning can be disabled if you're absolutely sure that you
+#    want to use a different mapgen.
+asuna.settings.mapgen_warning.enabled (Enable mapgen warning) bool true
+
 #    In creative mode players are able to dig all kind of blocks nearly
 #    instantly, and have access to unlimited resources.
 #    Some of the functionality is only available if this setting is present
