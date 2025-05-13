@@ -73,6 +73,25 @@ asuna.content.menagerie.slimes (Slimes) bool true
 #    permanently destroyed in order to earn infinite duplication of those items.
 asuna.content.research.enabled (Enable Research?) bool true
 
+[Content Pack: Stratosphere]
+
+#    Enables sky islands and supporting content for your world.
+asuna.content.stratosphere.enabled (Enable Stratosphere?) bool true
+
+#    Generate sky islands? Note that sky islands will only generate in mapgen v7
+#    and this setting only takes effect for ungenerated terrain.
+asuna.content.stratosphere.floatlands (Enable sky islands?) bool true
+
+#    Enable Astralcraft? Enabling this setting will cause shooting stars to
+#    shower your world at night which will allow you to craft helpful items for
+#    exploration.
+asuna.content.stratosphere.astralcraft (Enable Astralcraft?) bool true
+
+#    Enable Cloudcraft? Enabling this setting will cause tangible clouds to
+#    generate in your world which can be harvested and used to craft
+#    cloud-related items.
+asuna.content.stratosphere.cloudcraft (Enable Cloudcraft?) bool true
+
 [General Settings]
 
 #    The amount of decorative particles to show. These particles are only a
