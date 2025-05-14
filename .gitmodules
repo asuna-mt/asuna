@@ -190,3 +190,23 @@
 	path = mods/carpets
 	url = https://github.com/asuna-mt/carpets
 	branch = asuna
+[submodule "tune_jit"]
+	path = mods/tune_jit
+	url = https://github.com/asuna-mt/tune_jit
+	branch = asuna
+[submodule "armor_monoid"]
+	path = mods/armor_monoid
+	url = https://github.com/asuna-mt/armor_monoid
+	branch = asuna
+[submodule "montserrat_esr"]
+	path = mods/montserrat_esr
+	url = https://github.com/asuna-mt/montserrat_esr
+	branch = asuna
+[submodule "astralcraft"]
+	path = mods/astralcraft
+	url = https://github.com/asuna-mt/astralcraft
+	branch = asuna
+[submodule "cloudcraft"]
+	path = mods/cloudcraft
+	url = https://github.com/asuna-mt/cloudcraft
+	branch = asuna
