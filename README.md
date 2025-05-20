@@ -5,6 +5,8 @@ Welcome to the vast and vibrant world of Asuna! Journey through a potpourri of n
 
 This passion project brings together some of the very best biome and world decoration mods that the Minetest community has published to date. Much of Asuna's beauty is owed to the mod authors who have openly shared the fruits of their hard work and imagination. Asuna stands to honor these authors and their works.
 
+[Download at ContentDB](https://content.luanti.org/packages/EmptyStar/asuna/) | [Explore at GitHub](https://github.com/asuna-mt/asuna) | [Join the Discord](https://discord.gg/DqtD9kuk2R)
+
 Features
 --------
 
@@ -15,7 +17,7 @@ Asuna provides a wealth of biomes, flora, fauna, and a few other extras. Primary
 - 30+ farming crops to grow and harvest ([X Farming](https://content.minetest.net/packages/SaKeL/x_farming/), [Farming Redo](https://content.minetest.net/packages/TenPlus1/farming/))
 - 27 different animals and creatures to be found in their natural habitats ([Animalia](https://content.minetest.net/packages/ElCeejo/animalia/), [Living Slimes](https://content.luanti.org/packages/EmptyStar/livingslimes/))
 - 80+ decorative stones to unearth ([Too Many Stones](https://content.minetest.net/packages/JoeEnderman/too_many_stones/), [Baked Clay](https://content.minetest.net/packages/TenPlus1/bakedclay/), plus more from biome mods)
-- 47 unique achievements to unlock ([Awards](https://content.minetest.net/packages/rubenwardy/awards/), [Asuna Awards](https://github.com/asuna-mt/asuna_game_mods/tree/asuna/asuna_awards))
+- 54 unique achievements to unlock ([Awards](https://content.minetest.net/packages/rubenwardy/awards/), [Asuna Awards](https://github.com/asuna-mt/asuna_game_mods/tree/asuna/asuna_awards))
 - 31 atmospheric background music tracks (curated specifically for Asuna in [asuna_core](https://github.com/asuna-mt/asuna_game_mods/tree/asuna/asuna_core) and played via [Music Modpack](https://content.minetest.net/packages/mt-mods/music_modpack/))
 
 Content
@@ -25,7 +27,7 @@ Asuna's features provide a beautiful setting for your own adventures and creatio
 
 That said, Asuna provides a number of built-in gameplay features which are split up into *content packs*. Each content pack represents a certain category of gameplay features that can be enabled, disabled, and configured individually. This allows you to greatly customize your gameplay experience!
 
-All content packs are optional and configurable via `Settings > All Settings > Content: Games > Asuna`.
+All content packs are optional and configurable via `Settings > Content: Games > Asuna`.
 
 ### Nutrition
 
@@ -85,7 +87,31 @@ The Research content pack adds an *earned creative* mode to Asuna. Research allo
 
 This feature is implemented via the [Researcher](https://content.luanti.org/packages/EmptyStar/researcher/) mod which thoroughly describes the research process.
 
+### Stratosphere
+
+Bring the skies of your world to life with sky islands and an array of items to help you navigate this new realm of adventure.
+
+#### Sky Islands
+
+Stratosphere will fill your skies with vast constellations of floating islands. These sky islands will generate starting at a height of about 250 and will continue up to the top of your world. You will find many new items to help you navigate this terrain as described in the following sections.
+
+NOTE: Sky islands will only generate in worlds using mapgen v7; other mapgens are not supported for this feature.
+
+#### Astralcraft
+
+[Astralcraft](https://content.luanti.org/packages/EmptyStar/astralcraft/) introduces shooting stars and related items to Asuna. Shooting stars that shower your world at night can be collected and used to create star armor which glows in the dark, astralite which allows you to leap high into the air, and warp stars which you can throw to teleport. The linked mod description explains these features in detail.
+
+#### Cloudcraft
+
+[Cloudcraft](https://content.luanti.org/packages/EmptyStar/cloudcraft/) introduces tangible clouds to Asuna. These clouds can be harvested to create cloud-related items, most notably *cloud armor* which grants players floaty physics and protection from fall damage. See the linked mod description for more information on how to harvest clouds and craft cloud items.
+
 Mods
 ----
 
 For even more gameplay options, check out [ContentDB](https://content.minetest.net/) to find mods that can fulfill all of your wildest dreams. Asuna aims to maintain compatibility with mods that are compatible with Minetest Game.
+
+Notes/Caveats
+-------------
+
+- The only officially supported mapgen for Asuna is mapgen v7; Asuna worlds with other mapgens can still be created, but these worlds will see a warning that can be disabled via settings
+- Asuna is comprised of a number of popular mods that have been adjusted for compatibility with Asuna and its overall vision; using/overriding mods that Asuna already includes will generate warnings that can be disabled via settings
