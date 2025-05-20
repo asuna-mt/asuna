@@ -2,6 +2,24 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.0
+
+- New content pack: Stratosphere!
+  - Introduces sky islands to Asuna worlds
+  - Adds shooting stars + related items via [Astralcraft](https://content.luanti.org/packages/EmptyStar/astralcraft/)
+  - Adds tangible clouds + related items via [Cloudcraft](https://content.luanti.org/packages/EmptyStar/cloudcraft/)
+- As of this version, the only officially supported mapgen for Asuna is **mapgen v7**; Asuna worlds with other mapgens can still be created, but these worlds will see a warning that can be disabled via settings
+- New in-game font: [Montserrat ESR](https://content.luanti.org/packages/EmptyStar/montserrat_esr/)
+- New textures from [Baunilha](https://content.luanti.org/packages/Mirtilo/baunilha/), notably including new textures for Ethereal, Baked Clay, and other newly designed mod textures
+- Added [Tune JIT](https://content.luanti.org/packages/rudzik8/tune_jit/) for improved server-side performance
+- Added [Armor Monoid](https://content.luanti.org/packages/Byakuren/armor_monoid/) for mod compatibility
+- Updated all mods from upstream
+- Bug fixes
+  - Raised height limit of Deciduous Forest biome to 31000
+  - Pumpkins now only drop one pumpkin
+  - Added missing aliases for certain mod items that were removed/deduplicated
+  - Remove all uses of `goto` in the Asuna code base as it isn't officially supported
+
 ## v1.0.7
 
 - Effervescence: Use `blend = "clip"` for particles only if it's supported
