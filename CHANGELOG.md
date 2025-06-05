@@ -2,6 +2,12 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.1
+
+- Update Minetest Game from upstream to pull in [a hotfix to signs](https://github.com/luanti-org/minetest_game/commit/a6bf9dd526e51b25f1ca08d6d214c5e8442b503b)
+- Disable weeds ([for real this time](https://github.com/asuna-mt/farming/commit/f09ca4a0693c11bfed6a35bb7756ee95ca62c679))
+- Adjust dungeon nodes for some biomes
+
 ## v1.1.0
 
 - New content pack: Stratosphere!
