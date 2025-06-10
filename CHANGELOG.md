@@ -2,6 +2,16 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.2
+
+- New mod: [Dungeons Plus](https://content.luanti.org/packages/EmptyStar/dungeonsplus/)
+- Update mods from upstream
+  - 3D Armor: Russian translations and API crash fix
+  - Animalia: prevent log message spam due to node re-registration
+  - Astralcraft: reduce star fragment yield from shooting stars
+  - Asuna Game Mods: new crying obsidian textures by [JoeEnderman](https://content.luanti.org/users/JoeEnderman/)
+  - Filled Bottles: bottles with lighted materials now inherit light levels
+
 ## v1.1.1
 
 - Update Minetest Game from upstream to pull in [a hotfix to signs](https://github.com/luanti-org/minetest_game/commit/a6bf9dd526e51b25f1ca08d6d214c5e8442b503b)
