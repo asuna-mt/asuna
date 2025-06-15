@@ -2,6 +2,12 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.3
+
+- Add Ethereal crystal spikes to Everness crystal forest biome
+- Remove sashimi from Japanese forest mod/biome in favor of Ethereal sashimi
+- Update Minetest Game from upstream
+
 ## v1.1.2
 
 - New mod: [Dungeons Plus](https://content.luanti.org/packages/EmptyStar/dungeonsplus/)
