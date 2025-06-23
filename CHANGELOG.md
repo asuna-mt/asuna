@@ -2,6 +2,19 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.4
+
+- Use sand for Heath biome seabed
+- Improve ocean/shore biome mapgen performance and decoration patterns; beaches will generally be clearer and cleaner!
+  - Waterlily: reduce general density, remove from hot/tropical biome shores, and add extra to swampy biomes
+  - Reduce floating seaweed density
+  - Start algae, oysters, and mussels at slightly deeper depths
+  - Code improvements for better mapgen performance
+- Remove Ethereal thin ice from mapgen
+- Update mods from upstream
+  - Minetest Game: added support for Player Monoids
+  - Dungeons Plus: miscellaneous feature improvements and additional dungeon room checks
+
 ## v1.1.3
 
 - Add Ethereal crystal spikes to Everness crystal forest biome
