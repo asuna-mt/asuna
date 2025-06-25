@@ -2,6 +2,12 @@
 
 This file documents the major changes made in each version of Asuna.
 
+## v1.1.5
+
+- Reduce prevalence of slime mold on Mushroom biome shores
+- Allow coral to generate at slightly higher depths in tropical oceans
+- Update Dungeons Plus from upstream
+
 ## v1.1.4
 
 - Use sand for Heath biome seabed
